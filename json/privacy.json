@@ -1,0 +1,24 @@
+{
+    "types": [
+        {
+            "id": 1,
+            "name": "Public"
+        },
+        {
+            "id": 2,
+            "name": "%user%'s friends"
+        },
+        {
+            "id": 3,
+            "name": "Friends of %user%'s friends"
+        },
+        {
+            "id": 4,
+            "name": "Custom"
+        },
+        {
+            "id": 5,
+            "name": "Members of %group%"
+        }
+    ]
+}

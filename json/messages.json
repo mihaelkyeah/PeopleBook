@@ -1,0 +1,93 @@
+{
+    "chats": [
+        {
+            "users": [1,2],
+            "messages": [
+                {
+                    "userId": 1,
+                    "text": "Hey!!!",
+                    "sent": "2024-01-13-15:25",
+                    "received": "2024-01-13-15:25",
+                    "read": "2024-01-13-16:12"
+                },
+                {
+                    "userId": 1,
+                    "text": "Hi hi helloooooo",
+                    "sent": "2024-01-13-15:25",
+                    "received": "2024-01-13-15:25",
+                    "read": "2024-01-13-16:12"
+                },
+                {
+                    "userId": 1,
+                    "text": "HEEEEYYYYYYYY",
+                    "sent": "2024-01-13-15:25",
+                    "received": "2024-01-13-15:25",
+                    "read": "2024-01-13-16:12"
+                },
+                {
+                    "userId": 2,
+                    "text": "Hey, what's up?",
+                    "sent": "2024-01-13-16:13",
+                    "received": "2024-01-13-16:13",
+                    "read": "2024-01-13-16:15"
+                },
+                {
+                    "userId": 1,
+                    "text": "The sky",
+                    "sent": "2024-01-13-16:15",
+                    "received": "2024-01-13-16:15",
+                    "read": "2024-01-13-16:15"
+                },
+                {
+                    "userId": 2,
+                    "text": "🤦‍😂",
+                    "sent": "2024-01-13-16:15",
+                    "received": "2024-01-13-16:15",
+                    "read": "2024-01-13-16:15"
+                },
+                {
+                    "userId": 1,
+                    "text": "Wanna come see me play with the band tonight?",
+                    "sent": "2024-01-13-16:15",
+                    "received": "2024-01-13-16:15",
+                    "read": "2024-01-13-16:17"
+                },
+                {
+                    "userId": 2,
+                    "text": "You're in a band??",
+                    "sent": "2024-01-13-16:17",
+                    "received": "2024-01-13-16:17",
+                    "read": "2024-01-13-16:17"
+                },
+                {
+                    "userId": 1,
+                    "text": "Yeah, it's called Three Nachos and One More Shot",
+                    "sent": "2024-01-13-16:18",
+                    "received": "2024-01-13-16:18",
+                    "read": "2024-01-13-16:20"
+                },
+                {
+                    "userId": 2,
+                    "text": "Okay... Sounds like a real treat. When are you playing live?",
+                    "sent": "2024-01-13-16:20",
+                    "received": "2024-01-13-16:20",
+                    "read": "2024-01-13-16:21"
+                },
+                {
+                    "userId": 1,
+                    "text": "Tonight!",
+                    "sent": "2024-01-13-16:21",
+                    "received": "2024-01-13-16:21",
+                    "read": "2024-01-13-16:23"
+                },
+                {
+                    "userId": 2,
+                    "text": "Aah, I would have loved that you'd tell me earlier... I'll see what I can do",
+                    "sent": "2024-01-13-16:24",
+                    "received": "2024-01-13-16:24",
+                    "read": "2024-01-13-16:25"
+                }
+            ]
+        }
+    ]
+}

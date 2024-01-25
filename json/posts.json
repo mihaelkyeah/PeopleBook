@@ -1,0 +1,36 @@
+{
+    "posts": [
+        {
+            "userId": 1,
+            "pageId": null,
+            "text": "<strong>Time for some Lorem Ipsum extravaganza!</strong>\nLorem ipsum dolor sit amet consectetur adipisicing elit. Libero, veniam eaque, est exercitationem voluptatem expedita ipsa aliquid quidem minima reprehenderit quos esse et temporibus. Laborum esse temporibus inventore quaerat. Mollitia laborum amet blanditiis cumque possimus voluptatibus ut placeat aspernatur eveniet repellat minus nam, atque at est molestiae accusamus consectetur? Ad minima, accusantium iure laborum omnis dolorum laboriosam vel unde, vitae molestiae facere esse et veniam, asperiores animi laudantium sint reiciendis cupiditate corporis nisi? Magni sint itaque error voluptatum ut autem.",
+            "inGroup": false,
+            "privacyType": 1,
+            "media": [
+
+            ],
+            "reactions": [
+
+            ],
+            "comments": [
+
+            ]
+        },
+        {
+            "userId": 2,
+            "pageId": null,
+            "text": "Who said this was only meant for members of the Turtle Club???",
+            "inGroup": 3,
+            "privacyType": null,
+            "media": [
+
+            ],
+            "reactions": [
+
+            ],
+            "comments": [
+
+            ]
+        }
+    ]
+}
