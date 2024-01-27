@@ -7,17 +7,24 @@
     --primary-b: 124;
 
     --header-height: 3.5em;
-    --footer-height: 4.5em;
+    --footer-height: 4em;
 }
 
 html, body {
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important
 }
+header, footer { z-index: 1000 }
 header { height: var(--header-height) !important }
-footer { height: var(--footer-height) !important }
+footer {
+    height: var(--footer-height) !important;
+    bottom: 0;
+    margin: 0;
+}
 
 .h-100-minus-header-minus-footer {
-    height: calc(100vh - var(--header-height) - var(--footer-height)) !important
+    min-height: calc(100vh - var(--header-height) - var(--footer-height)) !important;
+    height: 100%;
+    /* overflow: scroll; */
 }
 
 .bg-primary, .btn-primary {
@@ -27,3 +34,26 @@ footer { height: var(--footer-height) !important }
     border-color: var(--primary) !important;
     background-color: rgb(255,calc(var(--primary-g)+191),255) !important
 }
+
+.feed {
+    background: rgb(249,249,249) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.post {
+    padding: 1em;
+    background: rgb(254,254,254) !important;
+    border-radius: 1em;
+    border: outset #77777733 3px;
+    width: 80%;
+    margin: 2ch 0;
+}
+.post-media {
+    width: 100%;
+    max-height: 24em;
+    object-fit: cover;
+}
+/* .post-image {
+    width: 100%;
+    object-fit: contain;
+} */

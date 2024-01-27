@@ -5,15 +5,49 @@
             "pageId": null,
             "text": "<strong>Time for some Lorem Ipsum extravaganza!</strong>\nLorem ipsum dolor sit amet consectetur adipisicing elit. Libero, veniam eaque, est exercitationem voluptatem expedita ipsa aliquid quidem minima reprehenderit quos esse et temporibus. Laborum esse temporibus inventore quaerat. Mollitia laborum amet blanditiis cumque possimus voluptatibus ut placeat aspernatur eveniet repellat minus nam, atque at est molestiae accusamus consectetur? Ad minima, accusantium iure laborum omnis dolorum laboriosam vel unde, vitae molestiae facere esse et veniam, asperiores animi laudantium sint reiciendis cupiditate corporis nisi? Magni sint itaque error voluptatum ut autem.",
             "inGroup": false,
-            "privacyType": 1,
+            "privacyType": 2,
             "media": [
-
+                {
+                    "type": "image",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png"
+                }
             ],
             "reactions": [
 
             ],
             "comments": [
-
+                {
+                    "userId": 2,
+                    "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+                    "replies": [
+                        {
+                            "userId": 3,
+                            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        },
+                        {
+                            "userId": 4,
+                            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                            "replies": [
+                                {
+                                    "userId": 3,
+                                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                                },
+                                {
+                                    "userId": 4,
+                                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+                                }
+                            ]
+                        },
+                        {
+                            "userId": 5,
+                            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        }
+                    ]
+                },
+                {
+                    "userId": 8,
+                    "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit."
+                }
             ]
         },
         {
@@ -23,7 +57,104 @@
             "inGroup": 3,
             "privacyType": null,
             "media": [
+                {
+                    "type": "youtube",
+                    "src": "https://www.youtube.com/watch?v=a3ICNMQW7Ok"
+                }
+            ],
+            "reactions": [
 
+            ],
+            "comments": [
+                {
+                    "userId": 3,
+                    "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+                    "replies": [
+                        {
+                            "userId": 2,
+                            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        },
+                        {
+                            "userId": 9,
+                            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        },
+                        {
+                            "userId": 8,
+                            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                        }
+                    ]
+                },
+                {
+                    "userId": 7,
+                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+                },
+                {
+                    "userId": 9,
+                    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                }
+            ]
+        },
+        {
+            "userId": null,
+            "pageId": 1,
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illum ex cupiditate.",
+            "inGroup": false,
+            "privacyType": 1,
+            "media": [
+                {
+                    "type": "video",
+                    "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                },
+                {
+                    "type": "image",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png"
+                }
+            ],
+            "reactions": [
+
+            ],
+            "comments": [
+
+            ]
+        },
+        {
+            "userId": null,
+            "pageId": 2,
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus libero voluptates corporis?",
+            "inGroup": false,
+            "privacyType": 1,
+            "media": [
+                {
+                    "type": "image",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png"
+                },
+                {
+                    "type": "image",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png"
+                },
+                {
+                    "type": "image",
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png"
+                }
+            ],
+            "reactions": [
+
+            ],
+            "comments": [
+
+            ]
+        },
+        {
+            "userId": null,
+            "pageId": 3,
+            "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur veniam vero ullam.",
+            "inGroup": false,
+            "privacyType": 1,
+            "media": [
+                {
+                    "type": "video",
+                    "src": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                }
             ],
             "reactions": [
 

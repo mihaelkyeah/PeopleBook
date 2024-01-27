@@ -1,0 +1,55 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Autos & Vehicles",
+            "icon": "🚗"
+        },
+        {
+            "id": 2,
+            "name": "Food & Drinks",
+            "icon": "🍕"
+        },
+        {
+            "id": 3,
+            "name": "Educational",
+            "icon": "🏫"
+        },
+        {
+            "id": 4,
+            "name": "Non-profit & Activism",
+            "icon": "🏳️"
+        },
+        {
+            "id": 5,
+            "name": "Entertainment",
+            "icon": "🎉"
+        },
+        {
+            "id": 6,
+            "name": "Family",
+            "icon": "👪"
+        },
+        {
+            "id": 7,
+            "name": "Fashion & Design",
+            "icon": "👒"
+        },
+        {
+            "id": 8,
+            "name": "Miscellaneous",
+            "icon": "🫧"
+        },
+        {
+            "id": 9,
+            "name": "Technology & Gadgets",
+            "icon": "🖥️"
+        },
+        {
+            "id": 10,
+            "name": "Sports",
+            "icon": "⚽"
+        }
+    ]
+
+}
