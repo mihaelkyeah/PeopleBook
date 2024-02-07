@@ -27,8 +27,33 @@
         <div class="hamburger-nav"></div>
     </header>
     <div class="row m-0 p-0 d-flex flex-row h-100-minus-header-minus-footer w-100">
-        <aside class="col-md-2 d-flex flex-column">
-            Aside
+        <aside class="col-md-2 d-flex flex-column py-1 px-3">
+            <hr/>
+            <h6>GROUPS</h6>
+            <ul class="list-unstyled" id="groupsList">
+                <li class="border border-secondary rounded-2 my-1 p-1">
+                    <a href="#" class="text-decoration-none text-dark">🍎 Group 1</a>
+                </li>
+                <li class="border border-secondary rounded-2 my-1 p-1">
+                    <a href="#" class="text-decoration-none text-dark">🐮 Group 2</a>
+                </li>
+                <li class="border border-secondary rounded-2 my-1 p-1">
+                    <a href="#" class="text-decoration-none text-dark">🏘 Group 3</a>
+                </li>
+            </ul>
+            <hr/>
+            <h6>PAGES</h6>
+            <ul class="list-unstyled" id="pagesList">
+                <li class="border border-secondary rounded-2 my-1 p-1">
+                    <a href="#" class="text-decoration-none text-dark">🍎 Group 1</a>
+                </li>
+                <li class="border border-secondary rounded-2 my-1 p-1">
+                    <a href="#" class="text-decoration-none text-dark">🐮 Group 2</a>
+                </li>
+                <li class="border border-secondary rounded-2 my-1 p-1">
+                    <a href="#" class="text-decoration-none text-dark">🏘 Group 3</a>
+                </li>
+            </ul>
         </aside>
         <div class="col-md-7 feed d-flex flex-column justify-content-start align-items-center">
             <div class="post">
@@ -50,9 +75,58 @@
                     </div>
                 </div>
             </div>
+            <div class="post">
+                <p class="post-author">John Doe</p>
+                <p class="post-timestamp" title="January 1st 2024">3 weeks ago</p>
+                <p class="post-text">Lorem ipsum dolor sit amet.</p>
+                <div class="row g-1">
+                    <div class="col-md-12">
+                        <img class="post-media img-fluid" src="img/media/PlaceholderLC-small.png">
+                    </div>
+                    <!-- <div class="col-md-4">
+                        <img class="post-media img-fluid" src="img/media/PlaceholderLC-small.png">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="post-media img-fluid" src="img/media/PlaceholderLC-small.png">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="post-media img-fluid" src="img/media/PlaceholderLC-small.png">
+                    </div> -->
+                </div>
+            </div>
         </div>
-        <div class="col-md-3 d-flex flex-column">
-            Messages
+        <div class="col-md-3 d-flex flex-column p-0">
+            <h6 class="bg-primary text-white text-center m-0 px-3 py-4">MESSAGES</h6>
+            <div class="conversations-chatbox-split">
+                <div id="conversations" class="index-conversations">
+                    <div class="messages-conversation">
+                        <img class="message-avatar" src="img/avatars/Squared Flat Avatar Vectors/boy-svgrepo-com.svg">
+                        <h6>Name LastName</h6>
+                        <small class="message-roughTimeStamp">2m</small>
+                    </div>
+                    <div class="messages-conversation active">
+                        <img class="message-avatar" src="img/avatars/Squared Flat Avatar Vectors/female-svgrepo-com.svg">
+                        <h6>Name LastName</h6>
+                        <small class="message-roughTimeStamp">2m</small>
+                    </div>
+                </div>
+                <div id="chatbox" class="index-chatbox">
+                    <div class="header">
+                        <img class="message-avatar" src="img/avatars/Squared Flat Avatar Vectors/female-svgrepo-com.svg">
+                        <h6>Name LastName</h6>
+                        <span class="close">✖</span>
+                    </div>
+                    <div class="chat-messages">
+                        <p class="message incoming">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, repellat.</p>
+                        <p class="message incoming">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="message outgoing">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, dolorem.</p>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text">
+                        <button class="btn btn-primary"></button>
+                    </div>
+                </div>
+                
         </div>
     </div>
     <footer class="bg-dark">
